@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+    <div class= "navbar">
+        <div><a href = "index.html"><button>Play Again</button></a></div>
+        <div class= "ins">(Between 1 and 100)</div>
+    </div>
+
+    <div class= "guessmyno">
+        Guess My Number!
+    </div>
+    <br><br><br><br><hr>
+    <div class= "randombox" id="questionMark">
+        ?
+    </div>
+    <div class= "main">
+        <div class="container">
+            <div class= "inputbox"><input type="number" id="userInput">
+            </div>
+            <div><button class= "check" type="submit" onclick="maincheck()" id="btn">Check</button></div>
+        </div>
+        <div class="container">
+            <div class= "content" id="scor">Start Guessing...</div>
+            <div class= "common"  id="score">💯 Chances: 100</div>
+            <div class = "common" id="highscore">🥇 Highscore: 0</div>
+        </div>
+    </div>
+    <script src= "index.js"></script>
+    
+</body>
+</html>

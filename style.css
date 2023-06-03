@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+}
+
+.ins{
+    color: white;
+    font-size: 200%;
+    margin: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.guessmyno{
+    width: auto;
+    color: white;
+    font-size: 280%;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.randombox{
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    border: 1px solid black;
+    padding-top: 45px;
+    position: relative;
+    left: 45%;
+    bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+   
+}
+
+input{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    left: 35%;
+    top: 50px;
+    background-color: black;
+    border: 1px double white;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+}
+
+hr{
+    height: 5px;
+    background-color: white;
+}
+
+.check{
+    position: relative;
+    top: 60px;
+    left: 35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content{
+    color: white;
+    font-size: 200%;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 80px;
+}
+
+.common{
+    margin-top: 30px; 
+    color: white;
+    padding-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
