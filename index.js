@@ -1,4 +1,5 @@
 let ranNum = parseInt(Math.random()* 100 + 1)
+console.log(ranNum);
 
 let btn=document.getElementById("btn")
 
